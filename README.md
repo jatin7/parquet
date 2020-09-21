@@ -1,20 +1,18 @@
 # parquest
 spark calculate on sqlserver
 
-
 Import sqlserver sang HDFS:
 
--Sửa link trong ImportConf 
+-Edit the link in ImportConf
 
--Chạy ConvertParquest để dẩy dữ liệu sang
+-Run ConvertParquest to convert data to
 
-
-Chạy chương trình:
+Run the program:
 
 -Sr link trong Conf
 
--Chạy timesheet để tính lương timesheet
+-Run timesheet to calculate timesheet salary
 
--Chạy overtime tính lương overtime
+-Run overtime to calculate overtime payroll
 
--Chạy salary để tính lương Gồm timesheet, overtime và giảm trừ phụ thuộc
+-Run salary to calculate salary Including timesheet, overtime and dependent deduction
